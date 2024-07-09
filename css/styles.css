@@ -66,7 +66,7 @@ background: rgb(229, 84, 115);
    width: 80%;
    height: 750px;
    margin: 0 auto;
-   border: 2px solid red;
+   
    margin-top: 120px;
  }
  .flower-text h4{
@@ -126,5 +126,47 @@ margin-bottom: 6px;
  }
  .flower-img-bg3 img{
    margin: 50px 66px;
+
+ }
+ .flower-image p{
+   color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+text-decoration-line: underline;
+margin-top: 6px;
+ }
+ /* fresh flower section */
+ .fresh-flower{
+   width: 80%;
+   height: 320px;
+   margin: 0 auto;
+   
+   border-radius: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 100px;
+   margin-top: 195px;
+
+   background: rgba(39, 39, 39, 0.05);
+ }
+
+ .fresh-flower-items p{
+   color: rgba(39, 39, 39, 0.8);
+font-family: Lato;
+font-size: 24px;
+font-weight: 600;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+ }
+ .fresh-flower-items{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 
  }
