@@ -247,3 +247,61 @@ margin-bottom: 10px;
 
 
 }
+/* subscribe btn section */
+.suscribe{
+   width: 80%;
+   height: 449px;
+   margin:0 auto;
+   background-image: url(../images/latest-deals-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 8px;
+   margin-top: 140px;
+}
+.deal-text h2{
+   color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 10px;
+}
+.deal-text p{
+   color: rgba(39, 39, 39, 0.6);
+   font-family: Lato;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 30px;
+   letter-spacing: 0%;
+   text-align: center;
+   margin-bottom: 40px;
+}
+.suscribe{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.suscribe input{
+   width: 700px;
+height: 64px;
+border-radius: 8px;
+border: none;
+background: rgb(255, 255, 255);
+}
+.suscribe button{
+   width: 150px;
+height: 64px;
+border-radius: 8px;
+background: rgb(229, 84, 115);
+border: none;
+color: rgb(255, 255, 255);
+font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
